@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94d4bf9ac7f4a933030e46a346ee2917",
+    "content-hash": "821d7f2597372901ba35fab55f3ced3e",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2884,6 +2884,51 @@
                 "environment"
             ],
             "time": "2019-06-15T22:40:20+00:00"
+        },
+        {
+            "name": "zaloplatform/zalo-php-sdk",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zaloplatform/zalo-php-sdk.git",
+                "reference": "0b46d97d5ba9b562bfb5ce613ea46947b14392b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zaloplatform/zalo-php-sdk/zipball/0b46d97d5ba9b562bfb5ce613ea46947b14392b8",
+                "reference": "0b46d97d5ba9b562bfb5ce613ea46947b14392b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.2.*"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Zalo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Zalo Platform"
+            ],
+            "authors": [
+                {
+                    "name": "zaloplatform",
+                    "email": "zaloplatform@gmail.com"
+                }
+            ],
+            "description": "sdk for zalo developers",
+            "keywords": [
+                "composer",
+                "sdk",
+                "zalo",
+                "zalosdk"
+            ],
+            "time": "2019-07-29T13:36:37+00:00"
         }
     ],
     "packages-dev": [
